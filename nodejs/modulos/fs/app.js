@@ -1,6 +1,7 @@
 // importando o módulo 'fs' para operações de sistema de arquivos
-const fs = require('fs');
+//const fs = require('fs');//
 
+import fs from 'fs';
 // Lendo um arquivo de forma assíncrona
 fs.readFile('example.txt', 'utf8', (err, data) => {
     // Tratando erros

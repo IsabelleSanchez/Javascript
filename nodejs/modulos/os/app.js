@@ -1,5 +1,7 @@
 // importando o módulo 'os' para operações relacionadas ao sistema operacional
-const os = require('os');
+//const os = require('os');
+
+import os from 'os'
 
 // Exibindo informações sobre o sistema operacional
 

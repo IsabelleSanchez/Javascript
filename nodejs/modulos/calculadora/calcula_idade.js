@@ -1,7 +1,4 @@
-function idade(anoAtual, anoNascimento) {
+export function idade(anoAtual, anoNascimento) {
     return anoAtual - anoNascimento;
 }
 
-module.exports = {
-    idade
-}
