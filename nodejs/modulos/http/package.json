@@ -8,6 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "Isabelle da Silva Sanchez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
