@@ -1,4 +1,5 @@
-export function idade(anoAtual, anoNascimento) {
-    return anoAtual - anoNascimento;
+export function idade(nome, anoAtual, anoNascimento) {
+    idade = anoAtual - anoNascimento; 
+    return `Olá, ${nome}! Você tem ${idade} anos.`;
 }
 
