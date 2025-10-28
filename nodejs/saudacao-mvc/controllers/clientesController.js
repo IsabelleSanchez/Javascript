@@ -1,3 +1,4 @@
+const clientesModel = require('../models/clientesModel');
 module.exports = {
 
     clientes: (req, res) => {
@@ -9,8 +10,8 @@ module.exports = {
     },
 
     logado: (req, res) => {
-            const { login, senha} = req.body;
-            const mensagem = clientesModel.gerarMensagemLogin(login, senha);
-            res.send(`<h1>${mensagem}</h1>`);
-          }
+        const { login, senha} = req.body;
+        const MensagemLogin = clientesModel.gerarMensagemLogin( login, senha);
+        res.send(`<h1>${MensagemLogin}</h1>`);
+        }
 };
